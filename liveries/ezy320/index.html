@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>EZY A320 Download</title>
+  <meta property="og:title" content="Projects - tdpain.net">
+	<meta property="og:url" content="https://cdn.tdpain.net/liveries/ezy320/">
+	<meta name="description" content="EZPA-PO liveries by Lee Grant">
+	<meta property="og:description" content="EZPA-PO liveries by Lee Grant">
+</head>
+<body>
+<p>
+</body>
+<script>
+function download(fpath, fname) {
+  var element = document.createElement('a');
+  element.setAttribute('href', fpath);
+  element.setAttribute('download', fname);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+download("https://cdn.tdpain.net/liveries/ezy320/resource.zip", "ASxA320EZPBO.zip");
+</script>
+</html>
